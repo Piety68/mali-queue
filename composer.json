@@ -1,0 +1,17 @@
+{
+    "name": "malihome/mali_queue",
+    "authors": [
+        {
+            "name": "Piety68",
+            "email": "369164155@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "malihome\\queue\\" : "include/malihome/queue/"
+        }
+    },
+    "require": {
+        "php-amqplib/php-amqplib": "^2.6"
+    }
+}
